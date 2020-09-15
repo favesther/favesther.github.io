@@ -2378,13 +2378,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #a2a2a2;
+			border: solid 0.5px #b4b4b4;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #f3f6f7;
 			}
 
 		table td {
@@ -2449,8 +2449,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: #f4e8c9;
 		border-radius: 0.35em;
-		border: solid 3px #a2a2a2;
-		color: #787878 !important;
+		border: solid 2px #b4b4b4;
+		color: #b4b4b4 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
