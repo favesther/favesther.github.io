@@ -3009,7 +3009,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1em;
+					font-size: 0.75em;
 				}
 
 					#header h1 br {
@@ -3085,10 +3085,10 @@ input, select, textarea {
 			#footer {
 				background-attachment: fixed;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
-				background-size: auto,							cover;
+				background-image: url("../../images/bg.jpg");
+				background-position: bottom center;
+				background-repeat: no-repeat;
+				background-size: cover;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
@@ -3168,7 +3168,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1em;
+					font-size: 0.5em;
 				}
 
 		/* Footer */
