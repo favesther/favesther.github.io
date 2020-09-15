@@ -100,7 +100,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #7f7f7f;
 		font-family: "Ubuntu", sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -2401,7 +2401,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: transparent;
+			border-bottom: solid 1px #a2a2a2;
 		}
 
 		table tfoot {
@@ -2448,10 +2448,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #f4e8c9;
+		background-color: #ffffff;
 		border-radius: 0.35em;
 		border: solid 2px #b4b4b4;
-		color: #b4b4b4 !important;
+		color: #a2a2a2 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2629,7 +2629,7 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #555555;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
