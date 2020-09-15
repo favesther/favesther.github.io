@@ -144,7 +144,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: inherent;
 			text-decoration: none;
 		}
 
@@ -156,6 +156,10 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+	}
+	
+	.title{
+		color:#555555;
 	}
 
 	h3 {
@@ -2379,7 +2383,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border:transparent;
+			border-bottom:solid 1px rgba(127,127,127, 0.6);
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2389,10 +2393,11 @@ input, select, textarea {
 			}
 
 		table td {
+			border-bottom:dotted 1px rgba(127,127,127, 0.6);
 			padding: 0.75em 0.75em;
 		}
 		.description{
-			width:80%;
+			width:70%;
 		}
 
 		table th {
@@ -2416,7 +2421,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: transparent;
+				/* border: transparent; */
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2599,7 +2604,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #CBB1BA;
 		background-attachment: scroll;
 		background-image: url("/images/bg.jpg");
 		background-position: top left;
@@ -2640,7 +2645,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(127, 127, 127, 0.8);
+			color: rgba(85,85,85, 0.6);
 			font-size: 1.25em;
 			line-height: 1.5em;
 			margin: 0;
@@ -2661,11 +2666,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(127, 127, 127, 0.5);
+			color: rgba(85,85,85, 0.6);
 		}
 
 	#footer .copyright {
-		color: rgb(127,127,127,0.5);
+		color: rgb(85,85,85, 0.6);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2673,7 +2678,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgb(127,127,127,0.5);
+			border-left: solid 1px rgb(85,85,85, 0.6);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -3088,7 +3093,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: #CBB1BA;
 				background-image: url("/images/bg.jpg");
 				background-position: bottom center;
 				background-repeat: repeat;
