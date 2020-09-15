@@ -101,9 +101,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+		font-family: "Ubuntu", sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -125,7 +125,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 300;
 	}
 
 	em, i {
@@ -138,7 +138,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2466,8 +2466,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #9877d8;
+			color: #9877d8 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2475,8 +2475,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #9877d8;
+			color: #9877d8 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2519,25 +2519,25 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
-			color: #ffffff !important;
+			background-color: #9877d8;
+			border-color: #9877d8;
+			color: #f3f6f7 !important;
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #9877d8;
+				border-color: #9877d8;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #9877d8;
+				border-color: #9877d8;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2547,9 +2547,9 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #e7e7e7 !important;
-			border-color: #e7e7e7 !important;
-			color: #b2b2b2 !important;
+			background-color: #f4e8c9 !important;
+			border-color: #f4e8 !important;
+			color: #9696 !important;
 			cursor: default;
 		}
 
@@ -3004,7 +3004,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1.25em;
+					font-size: 0.75em;
 				}
 
 					#header h1 br {
