@@ -2391,6 +2391,9 @@ input, select, textarea {
 		table td {
 			padding: 0.75em 0.75em;
 		}
+		.description{
+			width:80%;
+		}
 
 		table th {
 			color: #f4e8c9;
@@ -2637,7 +2640,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(127, 127, 127, 0.5);
 			font-size: 1.25em;
 			line-height: 1.5em;
 			margin: 0;
