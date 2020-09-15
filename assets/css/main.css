@@ -1819,9 +1819,9 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #ffffff;
 		border-radius: 0.35em;
-		border: solid 2px transparent;
+		border: solid 1px rgb(127,127,127,0.5);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2661,11 +2661,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(158, 158, 158, 0.5);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgb(127,127,127,0.5);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2673,7 +2673,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
+			border-left: solid 1px rgb(127,127,127,0.5);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -2700,7 +2700,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #f4e8c9;
+			border-top: solid 1.5px rgb(170,170,170,0.5);
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
