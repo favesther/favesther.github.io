@@ -192,7 +192,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px #f4e8c9;
 		margin: 2em 0;
 	}
 
@@ -201,7 +201,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px #f4e8c9;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
@@ -210,7 +210,7 @@ input, select, textarea {
 	code {
 		background: #f7f7f7;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #f4e8c9;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1983,7 +1983,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #f4e8c9;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2137,6 +2137,8 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			.image.avatar:before {
@@ -2176,7 +2178,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px #f4e8c9;
 				padding: 0.5em 0;
 			}
 
@@ -2376,7 +2378,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px #f4e8c9;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2398,11 +2400,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px #f4e8c9;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #f4e8c9;
 		}
 
 		table.alt {
@@ -2410,7 +2412,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px #f4e8c9;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2447,7 +2449,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #f4e8c9;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2635,7 +2637,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1em;
+			font-size: 1.25em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -2643,6 +2645,9 @@ input, select, textarea {
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+			margin-left: auto;
+			margin-right: auto;
+			
 		}
 
 /* Footer */
@@ -2691,7 +2696,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #f4e8c9;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3083,7 +3088,7 @@ input, select, textarea {
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
-				background-size: auto,							initial;
+				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
