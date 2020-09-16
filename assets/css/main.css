@@ -162,6 +162,11 @@ input, select, textarea {
 		color:#555555;
 	}
 
+	.list{
+		color:#555555;
+		font-size: 1.25em;
+	}
+
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
