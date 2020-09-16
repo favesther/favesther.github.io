@@ -113,14 +113,14 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: transparent;
-		color: #9677d8 ;
+		color: #724ACA ;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f4e8c9 !important;
-			text-decoration: none;
+			color: #9677d8 !important;
+			text-decoration: underline;
 		}
 
 	strong, b {
@@ -2643,6 +2643,7 @@ input, select, textarea {
 
 		#header strong, #header b {
 			color: #555555;
+			font-size:1.25em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
