@@ -159,7 +159,7 @@ input, select, textarea {
 	}
 	
 	.title{
-		color:#555555;
+		color:#9677d8;
 	}
 
 	.list{
@@ -170,7 +170,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
-	}
+	}but
 
 	h4 {
 		font-size: 1.1em;
@@ -2404,6 +2404,15 @@ input, select, textarea {
 		.description{
 			width:70%;
 		}
+		.tools{
+			width:20%
+		}
+		.details{
+			font-size: 1em;
+		}
+		.spec{
+			font-weight: bold;
+		}
 
 		table th {
 			color: #f4e8c9;
@@ -2567,6 +2576,9 @@ input, select, textarea {
 			border-color: #f4e8 !important;
 			color: #9696 !important;
 			cursor: default;
+		}
+		.inner{
+			display:inline-block;
 		}
 
 /* Work Item */
