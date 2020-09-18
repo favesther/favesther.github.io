@@ -1776,7 +1776,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #555555;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2672,7 +2672,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10em;
 			margin-left: auto;
 			margin-right: auto;
 			
@@ -2685,11 +2685,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(85,85,85, 0.6);
+			color: rgba(85,85,85, 0.8);
 		}
 
 	#footer .copyright {
-		color: rgb(85,85,85, 0.6);
+		color: rgb(85,85,85, 0.8);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2697,7 +2697,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgb(85,85,85, 0.6);
+			border-left: solid 1px rgb(85,85,85, 0.8);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -3102,12 +3102,22 @@ input, select, textarea {
 
 				#header h1 {
 					font-size: 1em;
+					line-height:1em;
 				}
 
 					#header h1 br {
-						display: none;
+						display:none;
 					}
 
+				#header .image.avatar {
+					margin: 0 0 1em 0;
+					width: 6em;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				header p {					
+					margin: 0 0 0.5em 0;
+				}
 		/* Footer */
 
 			#footer {
