@@ -135,6 +135,9 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 	}
+		.tag{
+			text-align: center;
+		}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555555;
@@ -159,7 +162,7 @@ input, select, textarea {
 	}
 	
 	.title{
-		color:#9677d8;
+		color:#7246CA;
 	}
 
 	.list{
@@ -170,6 +173,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	h4 {
@@ -2472,10 +2476,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #ffffff;
+		background-color: #9877d8;
 		border-radius: 0.35em;
-		border: solid 2px #b4b4b4;
-		color: #a2a2a2 !important;
+		border: solid 2px #9877d8;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2494,17 +2498,19 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #9877d8;
-			color: #9877d8 !important;
+			background-color: #7246CA;
+			border: solid 2px #7246CA;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #9877d8;
-			color: #9877d8 !important;
+			/* background-color: rgba(73, 191, 157, 0.1); */
+			background-color: #7246CA;
+			border-color: #ffffff;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"].icon,
