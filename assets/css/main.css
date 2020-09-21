@@ -133,11 +133,16 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		text-indent: 2em;
+		margin: 0 0 1em 0;
 		color: rgba(85,85,85);
 	}
 		.tag{
 			text-align: center;
+		}
+		p strong{
+			color: #787878;
+			font-weight: bold;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2388,7 +2393,8 @@ input, select, textarea {
 
 	table {
 		margin: 0 0 2em 0;
-		width: 100%;		
+		width: 100%;
+		color:rgba(85,85,85)		
 	}
 
 		table tbody tr {
@@ -2407,6 +2413,11 @@ input, select, textarea {
 			padding: 0.75em 0.75em;
 			vertical-align: middle;
 			
+		}
+
+		table td strong{
+			color:rgba(85,85,85);
+			font-weight: bold;
 		}
 		.description{
 			width:70%;
@@ -2643,6 +2654,7 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 35%;
+		font-size: 1.1em;
 	}
 
 		#header > * {
@@ -2692,11 +2704,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(222,222,222,0.8);
+			color: rgb(200,200,200);
 		}
 
 	#footer .copyright {
-		color: rgb(222,222,222,0.8);
+		color: rgb(200,200,200);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2704,7 +2716,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgb(222,222,222,0.8);
+			border-left: solid 1px rgb(200,200,200);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
