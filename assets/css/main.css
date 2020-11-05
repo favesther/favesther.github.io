@@ -2,8 +2,6 @@
 /* @import url("https://fonts.googleapis.com/css?family=Ubuntu:wght300,300italic"); */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"); */
-
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -24,7 +22,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 60%;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -102,10 +100,10 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #7f7f7f;
-		font-family: "Ubuntu", sans-serif;
-		font-size: 12pt;
-		font-weight: 300;
-		line-height: 1.75em;
+		font-family:'EB Garamond', serif;
+		font-size: 1.5em;
+		/* font-weight: 300; */
+		line-height: 2.2em;
 	}
 
 	a {
@@ -138,9 +136,11 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		color: rgba(85,85,85);
 		text-align: justify;
+		font-size: 1.4em;
 	}
 		.profile{
 			text-align: center;
+			font-size: 1.2em;
 		}
 		.tag{
 			text-align: center;
@@ -2102,9 +2102,9 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Zoom';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 1.25em;
 				font-weight: 400;
 				left: 50%;
 				line-height: 2.25em;
@@ -2194,6 +2194,9 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
+		ul.text li{
+			font-size: 1.35em;
+		}
 
 		ul li {
 			padding-left: 0.75em;
@@ -2421,6 +2424,7 @@ input, select, textarea {
 			padding: 0.75em 0.75em;
 			vertical-align: middle;
 			text-align: justify;
+			font-size: 1.3em;
 			
 		}
 
@@ -2435,7 +2439,7 @@ input, select, textarea {
 			width:20%
 		}
 		.details{
-			font-size: 1em;
+			font-size: 1.25em;
 		}
 		.spec{
 			font-weight: bold;
@@ -2443,7 +2447,7 @@ input, select, textarea {
 
 		table th {
 			color: #f4e8c9;
-			font-size: 0.9em;
+			font-size: 1.25em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
@@ -2620,7 +2624,7 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.2em;
 			margin: 0 0 0.5em 0;
 		}
 
@@ -2649,7 +2653,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #E4C8BA;
+		background-color: #f0fdf6;
 		background-attachment: scroll;
 		background-image: url("/images/bg.jpg");
 		background-position: top left;
@@ -2663,7 +2667,7 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 29%;
-		font-size: 1.1em;
+		font-size: 1.2em;
 	}
 
 		#header > * {
@@ -2879,7 +2883,7 @@ input, select, textarea {
 			background: #fff;
 			bottom: 0;
 			cursor: default;
-			font-size: 0.9em;
+			font-size: 1.5em;
 			height: 3em;
 			left: 0;
 			line-height: 2.8em;
@@ -3048,7 +3052,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 	}
